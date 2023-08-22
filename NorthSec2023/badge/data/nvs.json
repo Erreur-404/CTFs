@@ -1,0 +1,153 @@
+[
+    {
+        "page_state": "ACTIVE",
+        "page_seq_no": 0,
+        "page_version": 2,
+        "page_crc_32": 3115986308,
+        "page_entry_state_bitmap": "222222222222222222222222222222222222222222222222222222222222222222223322333333333333333333333333333333333333333333333333333333",
+        "entries": [
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 0,
+                "entry_type": "U8",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "storage",
+                "entry_data_type": "U8",
+                "entry_data": 1
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 0,
+                "entry_type": "U8",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "phy",
+                "entry_data_type": "U8",
+                "entry_data": 2
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 2,
+                "entry_ns": "phy",
+                "entry_type": "BLOB_DATA",
+                "entry_span": 61,
+                "entry_chunk_index": 0,
+                "entry_key": "cal_data",
+                "entry_data_type": "BLOB_DATA",
+                "entry_data_size": 1904,
+                "entry_data": "PhIAANTU2kaJOAAAZIgAAAAAMABJSwAAZIgAAIgIMABJSwAAYogAABERMABISwAAYogAAJkZMABISwAAYogAACIiMABISwAAYogAAKsqMABISwAAYogAADMzMABISwAAYogAALs7MABISwAAYogAAEREMABISwAAYogAAM1MMABISwAAYIgAAFVVMABISgAAYIgAAN5dMABISgAAYIgAAGZmMABISgAAYIgAAO9uMABISgAAYIgAAHd3MABISgAAYIgAAACAMABISgAAYIgAAIiIMABISgAAYIgAABGRMABISgAAXogAAJmZMABISgAAXogAACKiMABISgAAXogAAKuqMABISgAAXogAADOzMABISgAAXogAALu7MABISgAAXogAAETEMABISgAAXYgAAM3MMABISgAAXYgAAFXVMABISgAAXYgAAN7dMABISgAAXYgAAGbmMABISgAAW4gAAO/uMABISgAAW4gAAHf3MABISgAAW4gAAAAAMQBISgAAW4gAAIgIMQBISgAAW4gAABERMQBISgAAW4gAAJkZMQBISgAAW4gAACIiMQBISgAAW4gAAKsqMQBISgAAWogAADMzMQBISgAAWogAALs7MQBISgAAWogAAEREMQBISgAAWogAAM1MMQBISgAAWogAAFVVMQBISgAAWYgAAN5dMQBHSgAAWYgAAGZmMQBHSgAAWYgAAO9uMQBHSgAAWYgAAHd3MQBHSgAAV4gAAACAMQBHSQAAV4gAAIiIMQBHSQAAV4gAABGRMQBHSQAAV4gAAJmZMQBHSQAAVogAACKiMQBHSQAAVogAAKuqMQBHSQAAVogAADOzMQBHSQAAVogAALu7MQBHSQAAVogAAETEMQBHSQAAVYgAAM3MMQBHSQAAVYgAAFXVMQBHSQAAVYgAAN7dMQBHSQAAVYgAAGbmMQBHSQAAU4gAAO/uMQBHSQAAU4gAAHf3MQBHSQAAU4gAAAAAMgBHSQAAU4gAAIgIMgBHSQAAU4gAABERMgBHSQAAU4gAAJkZMgBHSQAAU4gAACIiMgBHSQAAU4gAAKsqMgBHSQAAUogAADMzMgBHSQAAUogAALs7MgBHSQAAUogAAEREMgBHSQAAUogAAM1MMgBHSQAAUogAAFVVMgBHSQAAUogAAN5dMgBHSQAAUIgAAGZmMgBGSQAAUIgAAO9uMgBGSQAAUIgAAHd3MgBGSQAAUIgAAACAMgBGSQAAUIgAAIiIMgBGSQAAUIgAABGRMgBGSQAAUIgAAJmZMgBGSQAAUIgAACKiMgBGSQAAUIgAAKuqMgBGSQAATogAADOzMgBGSAAATogAALu7MgBGSAAATogAAETEMgBGSAAATogAAM3MMgBGSAAAAAAAADj//wABAAAAAAAAAO8A9AABAf4A9gD1AP0AAQH1APcA/wD9APYA+AD+AP0A+AD5AP0A/AB8B7wHRQcGB8gGiwYPBwMPBwMPBwMPBwN7B4D+IAsAAD8/FhZSUk5IQjw4NPj/Bg0RFfkBCA4SF/wEChAVGfwEChAVGTAwNDg8OT0+ABMHExUTExERAA0A/v8CAiAAewd8B3wH7gDsAP0AAAHzAPMA/QD/APYA9gD7AAABSEiA/gAAAAAAAAAAfwAwAF/9PwxTAdsAUgHfAFQB3ABSAd8AVwHdAFQB3wBTAeIAVwHjABIB+AARAfkAEgH4ABIB+QATAfgAEwH4ABIB+gASAfoAEgH7AAAAAAAAAAAAFAH7ABQB+gAUAfoAEwH6ABMB+gASAfoAEgH6ABQB+gATAfoAEwH6ABIB+gASAfoAEgH6ABMB+gAqAe4AKgHuACoB6gAqAeYAKgHiACoB3gAqAeQAKgHkACoB4AAqAeAAKgHaACoB1AAVAeEAFQHhABUB3QATAdoAEwHUABMBzgAKAeEACQHfAAkB3AAJAdgACAHSAAcBzQAEAeAAAwHdAAIB2gACAdYAAQHSAAEBzACd5BFOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 2,
+                "entry_ns": "phy",
+                "entry_type": "BLOB_IDX",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "cal_data",
+                "entry_data_type": "BLOB_IDX",
+                "entry_data_size": 1904,
+                "entry_data_chunk_count": 0,
+                "entry_data_chunk_start": 255
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 2,
+                "entry_ns": "phy",
+                "entry_type": "BLOB_DATA",
+                "entry_span": 2,
+                "entry_chunk_index": 0,
+                "entry_key": "cal_mac",
+                "entry_data_type": "BLOB_DATA",
+                "entry_data_size": 6,
+                "entry_data": "1NTaRok4"
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 2,
+                "entry_ns": "phy",
+                "entry_type": "BLOB_IDX",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "cal_mac",
+                "entry_data_type": "BLOB_IDX",
+                "entry_data_size": 6,
+                "entry_data_chunk_count": 0,
+                "entry_data_chunk_start": 255
+            },
+            {
+                "entry_state": "Written",
+                "entry_ns_index": 2,
+                "entry_ns": "phy",
+                "entry_type": "U32",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "cal_version",
+                "entry_data_type": "U32",
+                "entry_data": 4670
+            },
+            {
+                "entry_state": "Empty",
+                "entry_ns_index": 0,
+                "entry_type": "U8",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "badge-mesh",
+                "entry_data_type": "U8",
+                "entry_data": 3
+            },
+            {
+                "entry_state": "Empty",
+                "entry_ns_index": 3,
+                "entry_ns": "badge-mesh",
+                "entry_type": "U16",
+                "entry_span": 1,
+                "entry_chunk_index": 255,
+                "entry_key": "node-addr",
+                "entry_data_type": "U16",
+                "entry_data": 11122
+            }
+        ]
+    },
+    {
+        "page_state": "EMPTY",
+        "page_seq_no": 4294967295,
+        "page_version": 1,
+        "page_crc_32": 4294967295,
+        "page_entry_state_bitmap": "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": []
+    },
+    {
+        "page_state": "EMPTY",
+        "page_seq_no": 4294967295,
+        "page_version": 1,
+        "page_crc_32": 4294967295,
+        "page_entry_state_bitmap": "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": []
+    },
+    {
+        "page_state": "EMPTY",
+        "page_seq_no": 4294967295,
+        "page_version": 1,
+        "page_crc_32": 4294967295,
+        "page_entry_state_bitmap": "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": []
+    },
+    {
+        "page_state": "EMPTY",
+        "page_seq_no": 4294967295,
+        "page_version": 1,
+        "page_crc_32": 4294967295,
+        "page_entry_state_bitmap": "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": []
+    },
+    {
+        "page_state": "EMPTY",
+        "page_seq_no": 4294967295,
+        "page_version": 1,
+        "page_crc_32": 4294967295,
+        "page_entry_state_bitmap": "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+        "entries": []
+    }
+]
