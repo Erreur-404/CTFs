@@ -3,6 +3,7 @@
 import argparse
 import os
 import subprocess
+from logging.handlers import RotatingFileHandler
 import logging
 from flask import Flask, request, jsonify, send_file
 
@@ -20,6 +21,21 @@ def serve_file():
         return send_file(file_path)
     else:
         return "File not found", 404
+
+@app.route('/upload', methods=['POST'])
+def upload():
+    # data is in the POST data field
+    data = request.get_data()
+    filename = request.form.get('filename')
+    data = data[data.find(b'&') + 1:]
+    if filename is not None:
+        if not os.path.exists('uploaded_files'):
+            os.makedirs('uploaded_files')
+        with open(os.path.join('uploaded_files', filename), 'wb') as f:
+            f.write(data)
+    else:
+        print(data.decode())
+    return "OK"
 
 @app.route('/text', methods=['GET'])
 def serve_text():
@@ -89,7 +105,7 @@ if __name__ == '__main__':
     logger.setLevel(logging.INFO)
     
     # Create a file handler for the log file
-    log_file_handler = logging.RotatingFileHandler('server.log', maxBytes=1024 * 1024, backupCount=10)
+    log_file_handler = RotatingFileHandler('server.log', maxBytes=1024 * 1024, backupCount=10)
     log_file_handler.setLevel(logging.INFO)
     
     # Create a console handler
