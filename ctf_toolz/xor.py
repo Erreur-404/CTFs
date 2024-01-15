@@ -32,5 +32,8 @@ if __name__ == "__main__":
 
     print("Input String:", args.input_string)
     print("XOR Key:", args.xor_key)
-    print("Result:", result.decode())
+    print("Result (ascii):", result.decode())
 
+    print("Result (hex):", end=' ')
+    for byte in result:
+        print(hex(byte)[2:], end=' ')
